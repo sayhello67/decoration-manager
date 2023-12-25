@@ -1,0 +1,109 @@
+.hero {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-family: Arial;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.container p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.container button {
+    background: none;
+    border: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.container button:hover {
+    background-color: black;
+    border: none;
+    border-radius: 1px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.menu-bar {
+    background-color: #333;
+    width: 118rem;
+    height: 50px;
+    box-shadow: 8px 8px 8px #aaaaaa;
+}
+
+.home-btn {
+    background-color: #04AA6D;
+    height: 50px;
+    width: 100px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.info-btn {
+    background: none;
+    height: 50px;
+    width: 100px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.info-btn:hover {
+    background-color: black;
+    border: none;
+}
+
+.about-btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 2rem;
+    margin: 8px; /* Adjust margin as needed for spacing */
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    transition: 0.3s;
+}
+
+.about-btn:hover {
+    background-color: black;
+    border: none;
+}
+
+.footer {
+    background-color: #333;
+    text-align: center;
+    font-family: Arial;
+    color: gray;
+    padding: 1px;
+}
